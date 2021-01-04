@@ -1,8 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 require("dotenv").config();
-const PWD = 'Fel!pe012021';
-// const PWD = process.env.MYDB_PWD;
+const PWD = process.env.MYDB_PWD;
 const databaseUrl = `mongodb+srv://felipesqf:${encodeURIComponent(PWD)}@cluster0.prkbb.mongodb.net/workout`;
 
 const PORT = process.env.PORT || 4000;

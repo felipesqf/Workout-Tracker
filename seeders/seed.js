@@ -1,6 +1,7 @@
 let mongoose = require("mongoose");
-let db = require("../models/workout");
+let db = require("../models");
 require("dotenv").config();
+
 const PWD = process.env.MYDB_PWD;
 const databaseUrl = `mongodb+srv://felipesqf:${encodeURIComponent(PWD)}@cluster0.prkbb.mongodb.net/workout`;
 
