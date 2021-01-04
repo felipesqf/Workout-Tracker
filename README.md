@@ -41,7 +41,7 @@ License under the [MIT License](LICENSE)
 
 ### Link to the Website
 
-<a href="https://agile-dusk-02846.herokuapp.com/">Link to the Note Taker application</a>
+<a href="https://agile-scrubland-26537.herokuapp.com/?id=5ff28a9c39a0678c5dab72ac">Link to the Fitness Tracker application</a>
 
 ## Authors
 
