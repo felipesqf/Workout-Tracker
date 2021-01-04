@@ -1,9 +1,14 @@
 let mongoose = require("mongoose");
-let db = require("../models");
+let db = require("../models/workout");
+require("dotenv").config();
+const PWD = process.env.MYDB_PWD;
+const databaseUrl = `mongodb+srv://felipesqf:${encodeURIComponent(PWD)}@cluster0.prkbb.mongodb.net/workout`;
 
-mongoose.connect("mongodb://localhost/workout", {
+mongoose.connect(process.env.MONGODB_URI || databaseUrl, {
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: false,
+  useUnifiedTopology: true,
+  useCreateIndex: true
 });
 
 let workoutSeed = [
