@@ -31,8 +31,8 @@ The user should be able to:
 
 #### Final Product
 
-![screenshot1](https://github.com/felipesqf/Note-Taker/blob/master/public/assets/images/home.PNG)
-![screenshot2](https://github.com/felipesqf/Note-Taker/blob/master/public/assets/images/notes.PNG)
+![screenshot1](https://github.com/felipesqf/Workout-Tracker/blob/main/public/assets/1.png)
+![screenshot2](https://github.com/felipesqf/Workout-Tracker/blob/main/public/assets/2.png)
 
 ### Licence
 
